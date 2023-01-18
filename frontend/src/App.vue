@@ -1,14 +1,14 @@
 <template>
-  <NavBar/>
+  <HomeHeader />
 </template>
 
 <script>
-import NavBar from './components/NavBar.vue'
+import HomeHeader from './HomeHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    HomeHeader
   },
 }
 </script>
