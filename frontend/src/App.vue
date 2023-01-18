@@ -1,9 +1,5 @@
-<template>
-  <HomeHeader />
-</template>
-
 <script>
-import HomeHeader from './HomeHeader.vue';
+import HomeHeader from './components/HomeHeader.vue';
 
 export default {
   name: 'App',
@@ -12,3 +8,8 @@ export default {
   },
 }
 </script>
+
+
+<template>
+  <HomeHeader />
+</template>
