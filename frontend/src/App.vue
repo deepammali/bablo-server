@@ -1,15 +1,18 @@
 <script>
-import HomeHeader from './components/HomeHeader.vue';
+import NavBar from './components/NavBar.vue';
+import LoginForm from './components/LoginForm.vue';
 
 export default {
   name: 'App',
   components: {
-    HomeHeader
+    NavBar,
+    LoginForm
   },
 }
 </script>
 
 
 <template>
-  <HomeHeader />
+  <NavBar />
+  <LoginForm />
 </template>
