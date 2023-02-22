@@ -1,5 +1,5 @@
 <script>
-import NavBar from './NavBar.vue'
+import NavBar from './NavBarComponent.vue';
 
 export default {
     name: 'HomeHeader',

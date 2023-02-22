@@ -1,18 +1,24 @@
 <script>
-import NavBar from './components/NavBar.vue';
-import LoginForm from './components/LoginForm.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
+import LoginModalComponent from './components/LoginModalComponent.vue';
+import HeroComponent from './components/HeroComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    LoginForm
+    HeaderComponent,
+    FooterComponent,
+    LoginModalComponent,
+    HeroComponent,
   },
 }
 </script>
 
 
 <template>
-  <NavBar />
-  <LoginForm />
+  <HeaderComponent />
+  <HeroComponent intro-text="WAKANDA FOREVER" />
+  <LoginModalComponent />
+  <FooterComponent />
 </template>
